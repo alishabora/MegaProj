@@ -1,0 +1,15 @@
+ <org.opencv.android.JavaCameraView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:visibility="visible"
+        android:id="@+id/show_camera_activity_java_surface_view"
+        opencv:show_fps="true"
+        opencv:camera_id="any"
+
+        />

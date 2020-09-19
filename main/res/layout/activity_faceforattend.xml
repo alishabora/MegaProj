@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:opencv="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/background"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scan and Capture"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            />
+    </android.support.v7.widget.Toolbar>
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        />
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar15"
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        >
+
+        <ImageView
+            android:id="@+id/fview_iv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar17"
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        >
+        <Button
+            android:id="@+id/sc_bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="Scan" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar117"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:background="@drawable/button_background"
+        >
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/ic_arrow_back_black_24dp"/>
+    </android.support.v7.widget.Toolbar>
+</LinearLayout>
